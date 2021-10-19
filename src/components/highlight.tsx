@@ -3,15 +3,16 @@ import React from 'react';
 
 export default function H( { children }: { children: React.ReactNode } ) {
 	return (
-		<Box sx={{
+		<Box 
+		component='span'
+		sx={{
 			bgcolor     : colors.grey[ 500 ],
 			borderRadius: 1,
 			px          : .5,
 			py          : .1,
-			mx          : .5,
 			display     : 'inline-block',
 		}}>
-			<Typography color='white' variant='body2'>{children}</Typography>
+			<Typography component='span' color='white' variant='body2'>{children}</Typography>
 		</Box>
 	);
 }
