@@ -1,4 +1,4 @@
-[<h2 align="center"><img align="center" src="./assets/invoiss-logo.png" width="500"></h2>](https://invoiss.com)
+[<p align="center"><img align="center" src="./assets/invoiss-logo.png" width="500"></p>](https://invoiss.com)
 
 <div align="center">
 <h1>Welcome to Invoiss React JS Technical Interview</h1> 
